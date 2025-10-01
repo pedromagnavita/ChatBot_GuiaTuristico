@@ -64,7 +64,7 @@ Baixe o modelo através do Ollama. Abra seu terminal e execute:
 ```bash
 # Modelo de Linguagem Principal (LLM)
 ollama pull llama3:8b-instruct-q4_0
-# Você pode esolher seu modelo, desde que o renomeie no código "LLM_MODEL =..." 
+# Você pode escolher seu modelo, desde que o renomeie no código "LLM_MODEL =..." 
 ```
 
 ### 4\. Preparando o Conteúdo
