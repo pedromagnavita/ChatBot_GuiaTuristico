@@ -34,7 +34,7 @@ except Exception as e:
     exit()
 
 # Configura o retriever (busca por similaridade)
-retriever = vector_store.as_retriever()
+retriever = vector_store.as_retriever(search_kwargs={'k': 2})
 print("Banco de dados vetorial pronto.")
 
 # --- CONFIGURAÇÃO DA CONVERSA (PROMPT E MEMÓRIA) ---

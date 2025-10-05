@@ -36,6 +36,7 @@ docs = loader.load()
 # Divide o documento em chunks
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 split_docs = text_splitter.split_documents(docs)
+print(f"O documento foi dividido em {len(split_docs)} chunks.\n")
 
 # Cria o banco de dados vetorial usando FAISS
 print("Criando banco de dados vetorial...")
